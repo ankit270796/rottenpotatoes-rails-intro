@@ -59,9 +59,11 @@ class MoviesController < ApplicationController
         @release_date_header = params[:sort]=='release_date' ?'high-light':nil
   end
   
+  
   def new
     # default: render 'new' template
   end
+  
   
   def create
     @movie = Movie.create!(movie_params)
