@@ -59,6 +59,7 @@ form label {
   font-weight: bold;
   color: maroon;
 }
+
 table#movies th.high-light {
     background-color: yellow;
 }
